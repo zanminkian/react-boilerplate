@@ -1,15 +1,13 @@
 {
   "name": "react-boilerplate",
+  "type": "module",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "postinstall": "git-hooks install",
     "format": "git-hooks format",
     "lint": "git-hooks lint",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "tsc --noEmit && vite build"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -19,21 +17,10 @@
     "@types/react": "^18.0.37",
     "@types/react-dom": "^18.0.11",
     "@types/web": "^0.0.99",
+    "@vitejs/plugin-react": "^3.1.0",
     "@zanminkian/git-hooks": "^0.2.5",
     "@zanminkian/tsconfig": "^0.4.1",
-    "react-scripts": "5.0.1",
-    "typescript": "^4.9.5"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "typescript": "^5.0.4",
+    "vite": "^4.2.2"
   }
 }

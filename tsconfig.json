@@ -1,3 +1,5 @@
 {
-  "extends": "@zanminkian/tsconfig"
+  "extends": "@zanminkian/tsconfig",
+  "include": ["src"],
+  "exclude": ["**/*.spec.ts"]
 }

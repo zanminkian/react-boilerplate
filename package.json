@@ -6,8 +6,8 @@
   "packageManager": "pnpm@8.6.8",
   "scripts": {
     "postinstall": "git-validator install",
-    "lint": "git-validator",
-    "lint:fix": "git-validator --fix",
+    "style": "git-validator",
+    "style:apply": "git-validator -a",
     "dev": "vite --host 0.0.0.0 --port 3000",
     "build": "tsc --noEmit && vite build"
   },
@@ -16,13 +16,13 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/react": "^18.2.15",
+    "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
-    "@types/web": "^0.0.107",
-    "@vitejs/plugin-react": "^4.0.3",
-    "@zanminkian/tsconfig": "^0.5.1",
-    "git-validator": "^0.4.9",
+    "@types/web": "^0.0.114",
+    "@vitejs/plugin-react": "^4.0.4",
+    "@zanminkian/tsconfig": "^0.8.1",
+    "git-validator": "^0.7.0",
     "typescript": "^5.1.6",
-    "vite": "^4.4.4"
+    "vite": "^4.4.9"
   }
 }

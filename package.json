@@ -7,7 +7,7 @@
   "scripts": {
     "postinstall": "git-validator install",
     "style": "git-validator",
-    "style:apply": "git-validator -a",
+    "style:update": "git-validator -u",
     "dev": "vite --host 0.0.0.0 --port 3000",
     "build": "tsc --noEmit && vite build"
   },
@@ -21,8 +21,8 @@
     "@types/web": "^0.0.114",
     "@vitejs/plugin-react": "^4.0.4",
     "@zanminkian/tsconfig": "^0.8.1",
-    "git-validator": "^0.8.0",
-    "typescript": "^5.1.6",
+    "git-validator": "^0.9.0",
+    "typescript": "^5.2.2",
     "vite": "^4.4.9"
   }
 }

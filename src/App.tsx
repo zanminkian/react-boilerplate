@@ -1,5 +1,5 @@
-import css from "./app.module.css";
-
-export default function App({ name }: { name: string }) {
-  return <div className={css["app"]}>hello {name}</div>;
+export default function App() {
+  return (
+    <div className="text-base p-1 border border-black border-solid bg-red-100">hello world</div>
+  );
 }

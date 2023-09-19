@@ -1,30 +1,29 @@
 {
   "name": "react-boilerplate",
-  "type": "module",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "pnpm@8.6.8",
+  "type": "module",
   "scripts": {
+    "build": "tsc --noEmit && vite build",
+    "dev": "vite --host 0.0.0.0 --port 3000",
     "postinstall": "git-validator install",
     "style": "git-validator",
-    "style:update": "git-validator -u",
-    "dev": "vite --host 0.0.0.0 --port 3000",
-    "build": "tsc --noEmit && vite build"
+    "style:update": "git-validator -u"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/react": "^18.2.21",
+    "@types/react": "^18.2.22",
     "@types/react-dom": "^18.2.7",
     "@types/web": "^0.0.114",
     "@vitejs/plugin-react": "^4.0.4",
-    "@zanminkian/tsconfig": "^0.8.1",
     "autoprefixer": "^10.4.15",
-    "git-validator": "^0.9.1",
+    "git-validator": "^0.9.14",
     "tailwindcss": "^3.3.3",
     "typescript": "^5.2.2",
     "vite": "^4.4.9"
-  }
+  },
+  "packageManager": "pnpm@8.6.8"
 }

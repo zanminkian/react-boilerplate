@@ -1,3 +1,3 @@
 # react-boilerplate
 
-🏕 Opinionated React + TypeScript Starter Template
+🏕 An elegant `React` app starter template.

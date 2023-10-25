@@ -1,8 +1,8 @@
 /**
  * This file is required by tailwindcss extension in vscode
- *
- * @type {import('tailwindcss').Config}
  */
+import type { Config } from "tailwindcss";
+
 export default {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
-};
+} satisfies Config;

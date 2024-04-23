@@ -1,0 +1,32 @@
+{
+  "name": "react-boilerplate",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit && vite build",
+    "dev": "vite --host 0.0.0.0 --port 3000",
+    "postinstall": "fenge install",
+    "style": "fenge",
+    "style:update": "fenge -u"
+  },
+  "dependencies": {
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.0.9",
+    "@types/react": "19.0.10",
+    "@types/react-dom": "19.0.4",
+    "@types/web": "0.0.206",
+    "@vitejs/plugin-react": "4.3.4",
+    "fenge": "0.5.2",
+    "tailwindcss": "4.0.9",
+    "typescript": "5.7.3",
+    "vite": "6.2.0"
+  },
+  "packageManager": "pnpm@10.5.0",
+  "engines": {
+    "node": ">=18"
+  }
+}

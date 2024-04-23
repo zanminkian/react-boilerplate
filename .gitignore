@@ -1,0 +1,10 @@
+node_modules
+build
+.vscode
+dist
+
+pnpm-lock.yaml
+yarn.lock
+pacakge-lock.json
+
+/tailwind.css

@@ -11,21 +11,21 @@
     "style:update": "git-validator -u"
   },
   "dependencies": {
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@types/react": "18.2.79",
-    "@types/react-dom": "18.2.25",
-    "@types/web": "0.0.143",
-    "@vitejs/plugin-react": "4.2.1",
-    "autoprefixer": "10.4.19",
-    "git-validator": "0.16.0",
-    "tailwindcss": "3.4.3",
-    "typescript": "5.4.5",
-    "vite": "5.2.10"
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "@types/web": "0.0.153",
+    "@vitejs/plugin-react": "4.3.1",
+    "autoprefixer": "10.4.20",
+    "git-validator": "0.18.9",
+    "tailwindcss": "3.4.7",
+    "typescript": "5.5.4",
+    "vite": "5.3.5"
   },
-  "packageManager": "pnpm@8.6.8",
+  "packageManager": "pnpm@9.5.0",
   "engines": {
     "node": ">=18"
   }

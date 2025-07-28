@@ -11,19 +11,19 @@
     "style:update": "fenge -u"
   },
   "dependencies": {
-    "react": "19.1.0"
+    "react": "19.1.1"
   },
   "devDependencies": {
     "@tailwindcss/vite": "4.1.11",
-    "@types/react": "19.1.8",
-    "@types/web": "0.0.250",
+    "@types/react": "19.1.9",
+    "@types/web": "0.0.259",
     "@vitejs/plugin-react": "4.7.0",
-    "daisyui": "5.0.46",
-    "fenge": "0.9.7",
-    "react-dom": "19.1.0",
+    "daisyui": "5.0.50",
+    "fenge": "0.9.9",
+    "react-dom": "19.1.1",
     "tailwindcss": "4.1.11",
     "typescript": "5.8.3",
-    "vite": "7.0.5"
+    "vite": "7.0.6"
   },
   "engines": {
     "node": ">=20"

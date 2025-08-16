@@ -17,7 +17,7 @@
 2. Run `cd my-new-project` to enter your new project directory.
 3. Run `pnpm i` to install dependencies.
 4. Run `pnpm dev` to develope the app, or run `pnpm build` to build the app.
-5. Visit `http://localhost:3000/` in your browser.
+5. Visit `http://localhost:5173/` in your browser.
 
 ## License
 

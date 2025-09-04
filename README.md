@@ -4,12 +4,12 @@
 
 ## Tech Stack
 
-- Use [ES Module](https://nodejs.org/api/esm.html#introduction).
-- Use [Tailwind CSS](https://tailwindcss.com/).
-- Use [DaisyUI](https://daisyui.com/).
-- Use [Vite](https://vitejs.dev/).
-- Use [pnpm](https://pnpm.io/).
-- Use [fenge](https://www.npmjs.com/package/fenge).
+- 🧩 [ES Module](https://nodejs.org/api/esm.html#introduction).
+- 🎨 [Tailwind CSS](https://tailwindcss.com/).
+- 🌼 [DaisyUI](https://daisyui.com/).
+- ⚡ [Vite](https://vitejs.dev/).
+- 📦 [pnpm](https://pnpm.io/).
+- 💃 [fenge](https://www.npmjs.com/package/fenge).
 
 ## Usage
 

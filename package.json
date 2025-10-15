@@ -4,11 +4,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "tsc --noEmit && vite build",
+    "build": "vite build",
     "dev": "vite --strictPort",
     "postinstall": "fenge install",
     "style": "fenge",
-    "style:update": "fenge -u"
+    "style:update": "fenge -u",
+    "test": "tsc --noEmit"
   },
   "dependencies": {
     "react": "19.2.0",

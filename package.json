@@ -21,6 +21,7 @@
     "@types/react-dom": "19.2.3",
     "@types/web": "0.0.338",
     "@vitejs/plugin-react": "5.1.4",
+    "babel-plugin-react-compiler": "1.0.0",
     "daisyui": "5.5.19",
     "fenge": "0.12.11",
     "tailwindcss": "4.2.1",

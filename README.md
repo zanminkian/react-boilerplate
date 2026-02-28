@@ -4,6 +4,7 @@
 
 ## Tech Stack
 
+- 🚀 [React Compiler](https://react.dev/learn/react-compiler).
 - 🧩 [ES Module](https://nodejs.org/api/esm.html#introduction).
 - 🎨 [Tailwind CSS](https://tailwindcss.com/).
 - 🌼 [DaisyUI](https://daisyui.com/).

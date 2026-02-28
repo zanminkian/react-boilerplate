@@ -6,5 +6,12 @@ export default defineConfig({
   root: "src",
   base: "./",
   build: { outDir: "../dist" },
-  plugins: [react(), tailwindcss()],
+  plugins: [
+    react({
+      babel: {
+        plugins: ["babel-plugin-react-compiler"],
+      },
+    }),
+    tailwindcss(),
+  ],
 });

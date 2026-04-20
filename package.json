@@ -16,11 +16,12 @@
     "react-dom": "19.2.5"
   },
   "devDependencies": {
+    "@rolldown/plugin-babel": "0.2.3",
     "@tailwindcss/vite": "4.2.2",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
     "@types/web": "0.0.346",
-    "@vitejs/plugin-react": "5.2.0",
+    "@vitejs/plugin-react": "6.0.1",
     "babel-plugin-react-compiler": "1.0.0",
     "daisyui": "5.5.19",
     "fenge": "0.13.2",

@@ -20,14 +20,14 @@
     "@tailwindcss/vite": "4.2.2",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
-    "@types/web": "0.0.346",
+    "@types/web": "0.0.347",
     "@vitejs/plugin-react": "6.0.1",
     "babel-plugin-react-compiler": "1.0.0",
     "daisyui": "5.5.19",
     "fenge": "0.13.2",
     "tailwindcss": "4.2.2",
-    "typescript": "5.9.3",
-    "vite": "8.0.8"
+    "typescript": "6.0.3",
+    "vite": "8.0.9"
   },
   "devEngines": {
     "runtime": {

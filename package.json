@@ -9,7 +9,8 @@
     "postinstall": "fenge install",
     "style": "fenge",
     "style:update": "fenge -u",
-    "test": "tsc --noEmit"
+    "test": "pnpm style && pnpm typecheck",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "react": "19.2.5",
